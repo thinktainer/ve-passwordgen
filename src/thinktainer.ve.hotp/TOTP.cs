@@ -4,10 +4,10 @@
 
     internal static class TOTP
     {
+        private const long Interval = 30000;
+
         private static readonly DateTime StartOfTime =
             new DateTime(2016, 9, 25, 0, 0 ,0 ,0, DateTimeKind.Utc).ToUniversalTime();
-
-        private const long Interval = 30000;
 
         internal static string Generate(string userId)
         {

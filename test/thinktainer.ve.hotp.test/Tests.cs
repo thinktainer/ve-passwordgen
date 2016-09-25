@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Thinktainer.Ve.HOTP.Test
+﻿namespace Thinktainer.Ve.HOTP.Test
 {
+    using System;
+
     using Xunit;
 
     public class HOTPTests
