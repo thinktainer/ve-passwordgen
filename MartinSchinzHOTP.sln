@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "thinktainer.ve.hotp", "src\thinktainer.ve.hotp\thinktainer.ve.hotp.xproj", "{B3BA7053-7293-4362-B9A3-802F3DAAE419}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "thinktainer.ve.hotp.test", "test\thinktainer.ve.hotp.test\thinktainer.ve.hotp.test.xproj", "{7B156579-2C33-43D9-97FD-D83E4E79D913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9DB61675-1019-4FC4-A16F-980219BD4C8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5C780F2A-DDC5-410F-8B4C-4A7BD154D998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3BA7053-7293-4362-B9A3-802F3DAAE419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BA7053-7293-4362-B9A3-802F3DAAE419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BA7053-7293-4362-B9A3-802F3DAAE419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BA7053-7293-4362-B9A3-802F3DAAE419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B156579-2C33-43D9-97FD-D83E4E79D913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B156579-2C33-43D9-97FD-D83E4E79D913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B156579-2C33-43D9-97FD-D83E4E79D913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B156579-2C33-43D9-97FD-D83E4E79D913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3BA7053-7293-4362-B9A3-802F3DAAE419} = {9DB61675-1019-4FC4-A16F-980219BD4C8D}
+		{7B156579-2C33-43D9-97FD-D83E4E79D913} = {5C780F2A-DDC5-410F-8B4C-4A7BD154D998}
+	EndGlobalSection
+EndGlobal
