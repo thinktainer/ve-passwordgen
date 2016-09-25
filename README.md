@@ -1,6 +1,7 @@
 # Password Generator / Validator
 
 Coding exercise demonstrating expiring passwords.
+Implemented using the algorithm described in [https://tools.ietf.org/html/rfc6238](https://tools.ietf.org/html/rfc6238).
 
 ## Prerequisites
 
